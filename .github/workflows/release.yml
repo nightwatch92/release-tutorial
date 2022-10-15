@@ -38,7 +38,7 @@ jobs:
     environment: Ejaculate
     steps:
       - name: Download artifacts
-        run: actions/download-artifact@fb598a63ae348fa914e94cd0ff38f362e927b741
+        uses: actions/download-artifact@fb598a63ae348fa914e94cd0ff38f362e927b741
         with:
           name: build-artifacts # src
           path: dist # dest
